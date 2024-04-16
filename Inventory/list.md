@@ -1,4 +1,4 @@
-#List of components
+## List of components
 
 OLED DISPLAY
 
