@@ -6,4 +6,4 @@ haii
 
 
 
-![Alt Text](https://github.com/sebinmpn/DACE/pic.jpg)
+![Alt Text](https://github.com/sebinmpn/DACE/blob/main/pic.jpg)
