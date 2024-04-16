@@ -14,5 +14,6 @@ MAX30102 HEART RATE/SPO2 SENSOR --RS: 214
 
 NIR SPECTROSCOPY(IR LED AND PHOTODIODE)
 
-LOAD CELL WITH HX711: 
+LOAD CELL:RS.199* 2
+https://www.amazon.in/Robodo-Pressure-Weighing-Sensor-Resistance/dp/B07DDKVZ25/ref=sr_1_1?crid=3D89A2236NDIV&dib=eyJ2IjoiMSJ9.hprnoZRvwVl2tUROptTk7w.hIsMJFAQFGL92I8WdSH2BcLwovsRXJTFlmLPh-I3IJM&dib_tag=se&keywords=load%2Bcell%2Bwith%2Bhx711%2Bsensor&qid=1713248226&refinements=p_89%3ARobodo&rnid=3837712031&s=industrial&sprefix=load%2Bcell%2Bwith%2Bhx711%2B%2Caps%2C294&sr=1-1&th=1
 
