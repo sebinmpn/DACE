@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/sebin/RP/pico/workspace/DACE0.0/test/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/sebin/RP/pico/workspace/DACE0.0/test/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/sebin/RP/pico/workspace/DACE0.0/test/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

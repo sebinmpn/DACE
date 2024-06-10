@@ -16,8 +16,8 @@ pico_enable_stdio_uart(test 1)
 
 pico_add_extra_outputs(test)
 
-target_link_libraries(test pico_stdlib ili9341 gfx max30102)
+target_link_libraries(test pico_stdlib ili9341 gfx max30102 mlx90614)
 
 add_subdirectory(lib)
 add_subdirectory(max)
-
+add_subdirectory(mlx90614)

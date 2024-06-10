@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test
+CMAKE_SOURCE_DIR = /home/sebin/RP/pico/workspace/DACE0.0/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build
+CMAKE_BINARY_DIR = /home/sebin/RP/pico/workspace/DACE0.0/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/CMakeFiles /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/max//CMakeFiles/progress.marks
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/CMakeFiles 0
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/RP/pico/workspace/DACE0.0/test/build/CMakeFiles /home/sebin/RP/pico/workspace/DACE0.0/test/build/max//CMakeFiles/progress.marks
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/RP/pico/workspace/DACE0.0/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/clean
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/preinstall
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/preinstall
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 max/CMakeFiles/max30102.dir/rule:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/CMakeFiles/max30102.dir/rule
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 max/CMakeFiles/max30102.dir/rule
 .PHONY : max/CMakeFiles/max30102.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ max30102: max/CMakeFiles/max30102.dir/rule
 
 # fast build rule for target.
 max30102/fast:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/build
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/build
 .PHONY : max30102/fast
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -135,7 +135,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/sebi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -143,7 +143,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/sebin/
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -151,7 +151,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/sebin/
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -159,7 +159,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/sebin/RP/pi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -167,7 +167,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/sebin/RP/pico
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -175,7 +175,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/sebin/RP/pico
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -183,7 +183,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/sebin/RP/pico/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.i: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -191,7 +191,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.i: home/sebin/RP/pico/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.s: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -199,7 +199,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.s: home/sebin/RP/pico/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -207,7 +207,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.obj: home/sebin/RP/pico/pic
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.i: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -215,7 +215,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.i: home/sebin/RP/pico/pico-
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.s: home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -223,7 +223,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.s: home/sebin/RP/pico/pico-
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -231,7 +231,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.obj: home/sebin/RP/pico/pi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.i: home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -239,7 +239,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.i: home/sebin/RP/pico/pico
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.s: home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -247,7 +247,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.s: home/sebin/RP/pico/pico
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -255,7 +255,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -263,7 +263,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/sebin/RP
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -271,7 +271,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/sebin/RP
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -279,7 +279,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.obj: home/sebin/RP/pic
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.i: home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -287,7 +287,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.i: home/sebin/RP/pico/
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.s: home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -295,7 +295,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.s: home/sebin/RP/pico/
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -303,7 +303,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.obj: home/sebin/RP/pico/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.i: home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -311,7 +311,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.i: home/sebin/RP/pico/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.s: home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -319,7 +319,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.s: home/sebin/RP/pico/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.obj: home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -327,7 +327,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.obj: home/sebin/RP/pico/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.i: home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -335,7 +335,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.i: home/sebin/RP/pico/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.s: home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -343,7 +343,7 @@ home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.s: home/sebin/RP/pico/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -351,7 +351,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -359,7 +359,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/sebin/RP
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -367,7 +367,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/sebin/RP
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -375,7 +375,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/sebi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -383,7 +383,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/sebin/
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -391,7 +391,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/sebin/
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -399,7 +399,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/se
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -407,7 +407,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -415,7 +415,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -423,7 +423,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -431,7 +431,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/sebin/RP/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -439,7 +439,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/sebin/RP/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -447,7 +447,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/sebin/RP/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -455,7 +455,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/sebin/RP/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -463,7 +463,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/sebin/RP/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -471,7 +471,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/sebin/RP/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -479,7 +479,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: h
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -487,7 +487,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/sebin/RP/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -495,7 +495,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/sebin/RP/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -503,7 +503,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/sebin/RP/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -511,7 +511,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -519,7 +519,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -527,7 +527,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -535,7 +535,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -543,7 +543,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/sebin/RP
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -551,7 +551,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/sebin/RP
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -559,7 +559,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -567,7 +567,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -575,7 +575,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -583,7 +583,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -591,7 +591,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -599,7 +599,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -607,7 +607,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -615,7 +615,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/se
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -623,7 +623,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/se
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -631,7 +631,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -639,7 +639,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -647,7 +647,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -655,7 +655,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -663,7 +663,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -671,7 +671,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/sebin/RP
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -679,7 +679,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/sebin/RP
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -687,7 +687,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -695,7 +695,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/se
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -703,7 +703,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -711,7 +711,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/s
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -719,7 +719,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/s
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -727,7 +727,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/seb
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -735,7 +735,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/sebin
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -743,7 +743,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/sebin
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -751,7 +751,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: h
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -759,7 +759,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/sebi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -767,7 +767,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/s
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -775,7 +775,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/seb
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -783,7 +783,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/seb
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -791,7 +791,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/sebin
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -799,7 +799,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/sebin/R
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -807,7 +807,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/sebin/R
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -815,7 +815,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: hom
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -823,7 +823,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -831,7 +831,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/seb
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -839,7 +839,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/sebin
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -847,7 +847,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/sebin
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -855,7 +855,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -863,7 +863,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/sebi
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -871,7 +871,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/sebin/
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -879,7 +879,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/sebin/
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -887,7 +887,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -895,7 +895,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -903,7 +903,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -911,7 +911,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/sebin/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -919,7 +919,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/sebin/RP
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -927,7 +927,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/sebin/RP
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -935,7 +935,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: h
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -943,7 +943,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: hom
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -951,7 +951,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: hom
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -959,7 +959,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/seb
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -967,7 +967,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: ho
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -975,7 +975,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -983,7 +983,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -991,7 +991,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/sebin/RP/p
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -999,7 +999,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/sebin/RP/pic
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1007,7 +1007,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/sebin/RP/pic
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1015,7 +1015,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1023,7 +1023,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/se
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1031,7 +1031,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/se
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1039,7 +1039,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/sebin/RP
 
 # target to build an object file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1047,7 +1047,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/sebin/RP/p
 
 # target to preprocess a source file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1055,7 +1055,7 @@ home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/sebin/RP/p
 
 # target to generate assembly for a file
 home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 max30102.obj: max30102.c.obj
@@ -1063,7 +1063,7 @@ max30102.obj: max30102.c.obj
 
 # target to build an object file
 max30102.c.obj:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.obj
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.obj
 .PHONY : max30102.c.obj
 
 max30102.i: max30102.c.i
@@ -1071,7 +1071,7 @@ max30102.i: max30102.c.i
 
 # target to preprocess a source file
 max30102.c.i:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.i
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.i
 .PHONY : max30102.c.i
 
 max30102.s: max30102.c.s
@@ -1079,7 +1079,7 @@ max30102.s: max30102.c.s
 
 # target to generate assembly for a file
 max30102.c.s:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.s
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/max30102.c.s
 .PHONY : max30102.c.s
 
 # Help Target
@@ -1221,6 +1221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sebin/RP/pico/workspace/DACE0.0/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

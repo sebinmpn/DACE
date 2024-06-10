@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/main.c.obj: \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/main.c \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/main.c \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -11,9 +11,9 @@ CMakeFiles/test.dir/main.c.obj: \
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/generated/pico_base/pico/version.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/build/generated/pico_base/pico/version.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/generated/pico_base/pico/config_autogen.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/build/generated/pico_base/pico/config_autogen.h \
  /home/sebin/RP/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -46,13 +46,13 @@ CMakeFiles/test.dir/main.c.obj: \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341/./ili9341.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341/./ili9341.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/./gfx.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/./gfxfont.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/max/./max30102.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/./gfx.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/./gfxfont.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/max/./max30102.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
@@ -64,10 +64,13 @@ CMakeFiles/test.dir/main.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+ /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/mlx90614/./mlx90614.h

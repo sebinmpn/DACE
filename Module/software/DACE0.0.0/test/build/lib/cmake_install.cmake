@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib
+# Install script for directory: /home/sebin/RP/pico/workspace/DACE0.0/test/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/lib/ili9341/cmake_install.cmake")
-  include("/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/lib/gfx/cmake_install.cmake")
+  include("/home/sebin/RP/pico/workspace/DACE0.0/test/build/lib/ili9341/cmake_install.cmake")
+  include("/home/sebin/RP/pico/workspace/DACE0.0/test/build/lib/gfx/cmake_install.cmake")
 
 endif()
 

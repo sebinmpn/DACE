@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/sebin/RP/pico/workspace/DACE0.0/test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test
+CMAKE_SOURCE_DIR = /home/sebin/RP/pico/workspace/DACE0.0/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build
+CMAKE_BINARY_DIR = /home/sebin/RP/pico/workspace/DACE0.0/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/CMakeFiles /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/RP/pico/workspace/DACE0.0/test/build/CMakeFiles /home/sebin/RP/pico/workspace/DACE0.0/test/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebin/RP/pico/workspace/DACE0.0/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -245,6 +245,19 @@ max30102: cmake_check_build_system
 max30102/fast:
 	$(MAKE) $(MAKESILENT) -f max/CMakeFiles/max30102.dir/build.make max/CMakeFiles/max30102.dir/build
 .PHONY : max30102/fast
+
+#=============================================================================
+# Target rules for targets named mlx90614
+
+# Build rule for target.
+mlx90614: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mlx90614
+.PHONY : mlx90614
+
+# fast build rule for target.
+mlx90614/fast:
+	$(MAKE) $(MAKESILENT) -f mlx90614/CMakeFiles/mlx90614.dir/build.make mlx90614/CMakeFiles/mlx90614.dir/build
+.PHONY : mlx90614/fast
 
 home/sebin/RP/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/sebin/RP/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/sebin/RP/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -1839,6 +1852,7 @@ help:
 	@echo "... gfx"
 	@echo "... ili9341"
 	@echo "... max30102"
+	@echo "... mlx90614"
 	@echo "... test"
 	@echo "... home/sebin/RP/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/sebin/RP/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"

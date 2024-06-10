@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341
+# Install script for directory: /home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1499,8 +1499,8 @@ max/CMakeFiles/max30102.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_stdl
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
-max/CMakeFiles/max30102.dir/max30102.c.obj: /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/max/max30102.c \
-  /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/max/max30102.h \
+max/CMakeFiles/max30102.dir/max30102.c.obj: /home/sebin/RP/pico/workspace/DACE0.0/test/max/max30102.c \
+  /home/sebin/RP/pico/workspace/DACE0.0/test/max/max30102.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1530,6 +1530,10 @@ max/CMakeFiles/max30102.dir/max30102.c.obj: /home/sebin/Eurekha/DACE/git/DACE/Mo
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico.h \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -1578,9 +1582,9 @@ max/CMakeFiles/max30102.dir/max30102.c.obj: /home/sebin/Eurekha/DACE/git/DACE/Mo
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
 
 
-/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/max/max30102.h:
+/home/sebin/RP/pico/workspace/DACE0.0/test/max/max30102.h:
 
-/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/max/max30102.c:
+/home/sebin/RP/pico/workspace/DACE0.0/test/max/max30102.c:
 
 /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 

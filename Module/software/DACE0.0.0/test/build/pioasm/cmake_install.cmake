@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sebin/RP/pico/workspace/DACE0.0/test/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

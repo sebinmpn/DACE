@@ -1549,7 +1549,7 @@ lib/ili9341/CMakeFiles/ili9341.dir/home/sebin/RP/pico/pico-sdk/src/rp2_common/pi
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
-lib/ili9341/CMakeFiles/ili9341.dir/ili9341.c.obj: /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341/ili9341.c \
+lib/ili9341/CMakeFiles/ili9341.dir/ili9341.c.obj: /home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341/ili9341.c \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico.h \
   /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -1604,10 +1604,10 @@ lib/ili9341/CMakeFiles/ili9341.dir/ili9341.c.obj: /home/sebin/Eurekha/DACE/git/D
   /home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
   /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
-  /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341/ili9341.h
+  /home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341/ili9341.h
 
 
-/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341/ili9341.h:
+/home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341/ili9341.c:
 
 /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 
@@ -1704,8 +1704,6 @@ lib/ili9341/CMakeFiles/ili9341.dir/ili9341.c.obj: /home/sebin/Eurekha/DACE/git/D
 /usr/include/newlib/machine/ieeefp.h:
 
 /usr/include/newlib/sys/_types.h:
-
-/home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/ili9341/ili9341.c:
 
 /usr/include/newlib/assert.h:
 
@@ -1932,6 +1930,8 @@ generated/pico_base/pico/version.h:
 /home/sebin/RP/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
 /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/home/sebin/RP/pico/workspace/DACE0.0/test/lib/ili9341/ili9341.h:
 
 /home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 

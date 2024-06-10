@@ -1,5 +1,5 @@
 lib/gfx/CMakeFiles/gfx.dir/gfx.c.obj: \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/gfx.c \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/gfx.c \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -11,9 +11,9 @@ lib/gfx/CMakeFiles/gfx.dir/gfx.c.obj: \
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/generated/pico_base/pico/version.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/build/generated/pico_base/pico/version.h \
  /home/sebin/RP/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/build/generated/pico_base/pico/config_autogen.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/build/generated/pico_base/pico/config_autogen.h \
  /home/sebin/RP/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -50,9 +50,9 @@ lib/gfx/CMakeFiles/gfx.dir/gfx.c.obj: \
  /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
  /usr/include/newlib/machine/malloc.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/gfx.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/gfxfont.h \
- /home/sebin/Eurekha/DACE/git/DACE/Module/software/DACE0.0.0/test/lib/gfx/font.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/gfx.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/gfxfont.h \
+ /home/sebin/RP/pico/workspace/DACE0.0/test/lib/gfx/font.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
  /home/sebin/RP/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
